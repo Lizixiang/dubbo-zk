@@ -12,4 +12,5 @@
 - [ ] 解决无法捕获dubbo rpc抛出的异常
 - [ ] canal+kafka监控mysql binlog日志实现数据同步
 - [ ] 引入普罗米修斯监控，并配合Grafana做前端展示
+- [ ] 引入apache dubbo动态配置中心（zk、apollo、nacos可选）
 
