@@ -1,0 +1,3 @@
+com\dubbo\gateway\controller\TestController.class
+com\dubbo\gateway\config\GateWayZkConfig.class
+com\dubbo\GatewayApplication.class
