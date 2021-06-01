@@ -14,4 +14,5 @@
 - [ ] 引入普罗米修斯监控，并配合Grafana做前端展示
 - [ ] 引入apache dubbo动态配置中心（zk、apollo、nacos可选）
 - [ ] 引入雪花算法snowFlake
+- [ ] 加入权限注解
 
