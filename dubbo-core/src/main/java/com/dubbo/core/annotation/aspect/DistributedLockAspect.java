@@ -117,7 +117,7 @@ public class DistributedLockAspect {
         } catch (Exception e) {
             logger.error("加锁失败:", e);
         } finally {
-            ZkLockUtils.unlcok(key);
+            ZkLockUtils.unlcok(String.format(key, lockField));
             logger.info("[{}]释放锁", String.format(key, lockField));
         }
         return result;
