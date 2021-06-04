@@ -4,6 +4,7 @@ import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;
 import org.apache.curator.retry.ExponentialBackoffRetry;
+import org.apache.zookeeper.data.Stat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.ObjectUtils;
@@ -60,6 +61,36 @@ public class ZkLockUtils {
         } catch (Exception e) {
             logger.error("ZkLockUtils unlcok error reason:", e);
         }
+    }
+
+    /**
+     * 判断当前线程是否锁住path(调用该方法必须为执行lock方法的线程，否则不生效)
+     * @param key
+     * @return
+     */
+    public static boolean isAcquire(String key) {
+        InterProcessMutex mutex = getMutex(key);
+        try {
+            return mutex.isOwnedByCurrentThread();
+        } catch (Exception e) {
+            logger.error("ZkLockUtils unlcok error reason:", e);
+        }
+        return false;
+    }
+
+    /**
+     * 检查节点是否存在
+     * @param key
+     * @return
+     */
+    public static Stat isExist(String key) {
+        Stat stat = null;
+        try {
+            stat = client.checkExists().forPath(key);
+        } catch (Exception e) {
+            logger.error("ZkLockUtils isExist error reason:", e);
+        }
+        return stat;
     }
 
     /**
