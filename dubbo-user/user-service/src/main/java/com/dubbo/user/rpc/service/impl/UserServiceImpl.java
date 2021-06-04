@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @DubboService
 public class UserServiceImpl implements UserService {
 
-    @DistributedLock(key = "/com/lzx")
+    @DistributedLock(key = "/com/lzx/%s", lockField = "#uid")
     @Override
     public String getUser(Integer uid) {
         try {
