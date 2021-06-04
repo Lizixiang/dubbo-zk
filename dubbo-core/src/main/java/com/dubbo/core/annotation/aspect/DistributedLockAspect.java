@@ -11,11 +11,18 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
+import org.springframework.expression.EvaluationContext;
+import org.springframework.expression.spel.standard.SpelExpressionParser;
+import org.springframework.expression.spel.support.StandardEvaluationContext;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 
 import java.lang.reflect.Method;
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author lizixiang
@@ -85,6 +92,17 @@ public class DistributedLockAspect {
         }
         long lockTime = annotation.lockTime();
         String[] lockField = annotation.lockField();
+        EvaluationContext context = new StandardEvaluationContext();
+        LocalVariableTableParameterNameDiscoverer discoverer = new LocalVariableTableParameterNameDiscoverer();
+        String[] params = discoverer.getParameterNames(method);
+        Object[] args = pjp.getArgs();
+        for (int i = 0; i < params.length; i++) {
+            context.setVariable(params[i], args[i]);
+        }
+        SpelExpressionParser parser = new SpelExpressionParser();
+        for (int i = 0; i < lockField.length; i++) {
+            lockField[i] = parser.parseExpression(lockField[i]).getValue(context, String.class);
+        }
         Object result = null;
         boolean lock = ZkLockUtils.lock(String.format(key, lockField), lockTime, TimeUnit.SECONDS);
         try {
