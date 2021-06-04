@@ -15,4 +15,5 @@
 - [ ] 引入apache dubbo动态配置中心（zk、apollo、nacos可选）
 - [ ] 引入雪花算法snowFlake
 - [x] 引入zk分布式锁注解(zk不支持延迟超时时间，注解支持spel表达式)
+- [ ] 加入全局异常
 
