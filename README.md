@@ -9,11 +9,11 @@
 - [ ] zookeeper负载均衡：根据自定义负载均衡算法选出空闲的机器（负载均衡算法：1.轮训算法 2.负载量算法）
 - [ ] 集成elastic job
 - [ ] 增加pulsar功能：解决分布式事务问题
-- [ ] 解决无法捕获dubbo rpc抛出的异常
+- [x] 解决无法捕获dubbo rpc抛出的异常
 - [ ] canal+kafka监控mysql binlog日志实现数据同步
 - [ ] 引入普罗米修斯监控，并配合Grafana做前端展示
 - [ ] 引入apache dubbo动态配置中心（zk、apollo、nacos可选）
 - [ ] 引入雪花算法snowFlake
 - [x] 引入zk分布式锁注解(zk不支持延迟超时时间，注解支持spel表达式)
-- [ ] 加入全局异常
+- [x] 加入全局异常
 
