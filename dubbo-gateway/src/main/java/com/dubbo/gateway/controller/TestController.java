@@ -43,6 +43,12 @@ public class TestController {
         return user;
     }
 
+    @GetMapping("/dubboRpc")
+    public String dubboRpc() {
+        userService.dubboRpc();
+        return "";
+    }
+
     @GetMapping("/testzk")
     public void testzk(String key) {
         boolean lock = ZkLockUtils.lock(key, 30, TimeUnit.SECONDS);
