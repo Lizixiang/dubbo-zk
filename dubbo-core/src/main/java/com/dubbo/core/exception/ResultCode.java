@@ -8,6 +8,7 @@ public interface ResultCode {
 
     /**
      * 状态码
+     *
      * @return
      */
     int getCode();

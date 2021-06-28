@@ -35,8 +35,9 @@ public class ZkLockUtils {
 
     /**
      * 加锁
-     * @param key zk znode路径
-     * @param time 失效时间
+     *
+     * @param key      zk znode路径
+     * @param time     失效时间
      * @param timeUnit
      * @return
      */
@@ -52,6 +53,7 @@ public class ZkLockUtils {
 
     /**
      * 释放锁
+     *
      * @param key zk znode路径
      */
     public static void unlcok(String key) {
@@ -65,6 +67,7 @@ public class ZkLockUtils {
 
     /**
      * 判断当前线程是否锁住path(调用该方法必须为执行lock方法的线程，否则不生效)
+     *
      * @param key
      * @return
      */
@@ -80,6 +83,7 @@ public class ZkLockUtils {
 
     /**
      * 检查节点是否存在
+     *
      * @param key
      * @return
      */
@@ -95,6 +99,7 @@ public class ZkLockUtils {
 
     /**
      * 获取mutex 放到ThreadLocal重复使用
+     *
      * @param key
      * @return
      */
