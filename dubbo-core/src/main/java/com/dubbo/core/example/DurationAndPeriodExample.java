@@ -1,5 +1,7 @@
 package com.dubbo.core.example;
 
+import com.dubbo.core.util.DateUtils;
+
 import java.time.*;
 import java.time.temporal.ChronoUnit;
 
@@ -47,6 +49,7 @@ public class DurationAndPeriodExample {
         System.out.println(duration.minusHours(2));
         // 进行plus操作并不会对p1本身有影响
         System.out.println(duration);
+        System.out.println(DateUtils.formatDurationWords(260000, true, true));
 
 
         ///////////////////////////////////////ChronoUnit使用///////////////////////////////////////
@@ -63,8 +66,15 @@ public class DurationAndPeriodExample {
         System.out.println("相差"+ ChronoUnit.MICROS.between(begin, end) +"mics");
         System.out.println("相差"+ ChronoUnit.NANOS.between(begin, end) +"ns");
 
-
-
+        ///////////////////////////////////////Instant使用///////////////////////////////////////
+        Instant instant = Instant.now();
+        System.out.println(instant);
+        System.out.println(Instant.now(Clock.systemDefaultZone()));
+        System.out.println(Instant.ofEpochMilli(1636630631000L));
+        System.out.println(Instant.ofEpochSecond(1636630631));
+        System.out.println(Instant.parse("2021-11-11T19:38:35Z"));
+        System.out.println(instant.toEpochMilli());// ms
+        System.out.println(instant.getEpochSecond());
     }
 
 }
