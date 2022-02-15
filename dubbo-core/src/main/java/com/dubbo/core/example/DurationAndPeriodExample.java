@@ -3,6 +3,7 @@ package com.dubbo.core.example;
 import com.dubbo.core.util.DateUtils;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
 /**
@@ -65,6 +66,9 @@ public class DurationAndPeriodExample {
         System.out.println("相差"+ ChronoUnit.MILLIS.between(begin, end) +"mesc");
         System.out.println("相差"+ ChronoUnit.MICROS.between(begin, end) +"mics");
         System.out.println("相差"+ ChronoUnit.NANOS.between(begin, end) +"ns");
+
+        LocalDateTime tmp1 = LocalDateTime.parse("2022-01-11 17:18:31", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println("相差"+ ChronoUnit.DAYS.between(tmp1, end) +"天(24小时制)");
 
         ///////////////////////////////////////Instant使用///////////////////////////////////////
         Instant instant = Instant.now();
