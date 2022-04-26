@@ -1,5 +1,7 @@
 package com.dubbo.core.example;
 
+import com.alibaba.fastjson.JSON;
+import com.dubbo.core.example.vo.GoodRankListVO;
 import com.google.common.collect.Lists;
 
 import java.util.ArrayList;
@@ -23,6 +25,22 @@ public class CollectionExample {
             return list2.indexOf(v1) > list2.indexOf(v2) ? 1 : -1;
         }).collect(Collectors.toList());
         System.out.println(collect);
+
+        GoodRankListVO vo1 = new GoodRankListVO(3, 1.1, 3);
+        GoodRankListVO vo2 = new GoodRankListVO(2, 1.1, 3);
+        List<GoodRankListVO> list = new ArrayList<>();
+        list.add(vo1);
+        list.add(vo2);
+        List<GoodRankListVO> collect1 = list.stream().sorted((b1, b2) -> {
+            if (b1.getGrade() > b2.getGrade()) {
+                return -1;
+            } else if (b1.getGrade() < b2.getGrade()) {
+                return 1;
+            } else {
+                return b2.getGradeCount() - b1.getGradeCount();
+            }
+        }).collect(Collectors.toList());
+        System.out.println(JSON.toJSONString(collect1));
 
     }
 

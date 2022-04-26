@@ -8,6 +8,7 @@ public enum ErrorCode implements ResultCode {
 
     SYSTEM_ERROR(1001, "系统错误"),
     PARAM_ERROR(1002, "参数错误"),
+    FLOW_CONTROL(1003, "触发限流"),
     ;
 
     private int code;

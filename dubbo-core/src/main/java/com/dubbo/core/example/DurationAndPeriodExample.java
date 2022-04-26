@@ -39,10 +39,14 @@ public class DurationAndPeriodExample {
         Duration between1 = Duration.between(begin, end);
         System.out.println("相差"+ between1.getSeconds() +"s|"+ between1.getNano() +"ns");
 
+        // 将时间单元转换成时间
         System.out.println(Duration.ofHours(10));
+        System.out.println(Duration.ofMinutes(5));
         // 将时间转换成时间单元
         System.out.println(Duration.parse("P1DT1H10M43.2S").toHours());
         System.out.println(Duration.parse("PT23H").toMinutes());
+        System.out.println(end.plus(Duration.parse("PT23H")));
+
 
         Duration duration = Duration.ofSeconds(10);
         System.out.println(duration.plus(Duration.parse("P1DT1H")));
