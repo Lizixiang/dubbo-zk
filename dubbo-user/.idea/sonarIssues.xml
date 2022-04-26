@@ -18,6 +18,66 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/JedisClusterFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/AbstractFlowControlStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/FlowControl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/FlowControlAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/FlowControlDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/FlowControlStrategyFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/LeakyBucketStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/SlideWindowStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/flowcontrol/TokenBucketStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/util/LuaUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/util/RedisUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../gradle-repo/caches/modules-2/files-2.1/com.motor/motor_coins_rpc/1.1.1/e29cfed86413014d0c0d428cfe77cf76bc51a7be/motor_coins_rpc-1.1.1-sources.jar!/com/motor/coins/rpc/manager/CoinsAccountManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../apache-maven-3.5.0/MavenLocalRepository/com/dubbo/dubbo-core/1.0.0/dubbo-core-1.0.0-sources.jar!/com/dubbo/core/util/ZkLockUtils.java">
           <value>
             <set />
@@ -38,17 +98,22 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../gradle-repo/caches/modules-2/files-2.1/com.motor/motor_common/2.8.0.4/8d009c48d4977c86ff3112aba3209d2a7dc817c/motor_common-2.8.0.4-sources.jar!/com/motor/common/nacos/NacosCommonConfig.java">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/../apache dubbo/README.md">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../apache dubbo/dubbo-configcenter/dubbo-configcenter-zookeeper/src/main/java/org/apache/dubbo/configcenter/support/zookeeper/ZookeeperDynamicConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../canal/src/main/java/com/dubbo/canal/client/CanalClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../canal/src/main/resources/application.properties">
           <value>
             <set />
           </value>
@@ -99,6 +164,96 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../dubbo-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/JedisClusterFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/annotation/DistributedLock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/annotation/FlowControl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/annotation/FlowControll.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/AbstractFlowControlStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/FlowControl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/FlowControlAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/FlowControlDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/FlowControlStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/FlowControlStrategyFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/LeakyBucketStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/SlideWindowStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/TokenBucketStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/enums/ALGORITHMENUM.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/enums/AlgorithmEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/flowcontrol/enums/FlowControlEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/util/LuaUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo-core/src/main/java/com/dubbo/core/util/RedisUtils.java">
           <value>
             <set />
           </value>
@@ -183,6 +338,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/user-api/src/main/java/com/dubbo/StartApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-api/src/main/java/com/dubbo/user/api/controller/TestRedisController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/user-api/src/main/java/com/dubbo/user/api/controller/TestZkController.java">
           <value>
             <set />
@@ -204,6 +369,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/user-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/dubbo/config/GetHttpSessionConfigurator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/dubbo/config/MyWebSocketHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/dubbo/config/WebSocketConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/dubbo/config/WebsocketServer.java">
           <value>
             <set />
           </value>
@@ -1429,6 +1614,1466 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../zkui-master/src/main/java/com/deem/zkui/controller/Login.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../gradle-repo/caches/modules-2/files-2.1/com.motor/motor_common/2.8.0.4/8d009c48d4977c86ff3112aba3209d2a7dc817c/motor_common-2.8.0.4-sources.jar!/com/motor/common/nacos/NacosCommonConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_activity/motor_activity_rpc/src/main/java/com/motor/rpc/service/activity/RpcActivityService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_activity/motor_activity_service/src/main/java/com/motor/platform/signup/dao/EnterDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_activity/motor_activity_service/src/main/java/com/motor/platform/signup/service/OmniServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_activity/motor_activity_service/src/main/java/com/motor/rpc/impl/activity/RpcActivityServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_rpc/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_rpc/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_rpc/src/main/java/com/motor/platform/carport/rpc/service/CarportService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/dao/RaisedCarPriceDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/dao/impl/AdminAuthDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/dao/impl/RaisedCarPriceDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/dto/MotorCarAuthQueryDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/dto/ShopDrivingSchoolInfoDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/service/AdminCarServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/service/AdminCityOfficerServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/service/AdminTestServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/service/MotorShopDrivingSchoolServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/backend/admin/service/RaisedCarPriceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/base/common/CarportErrorCodes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/base/constant/RedisKeyDefine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/common/es/SearchHelp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/common/es/search/SearchBrandHelp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/common/es/search/SearchGoodsCarHelp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/context/GoodTypeEum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/controller/BrandController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/controller/GoodsInfoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/controller/MotorDrivingTestRecordController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/controller/MotorRaisedCarPriceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/dao/GoodsModelsDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/dao/MotorDrivingTestDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/dao/impl/AttributeDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/dao/impl/BrandDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/dao/impl/GoodsModelsDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/dao/impl/MotorDrivingTestDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/integration/GoodsManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/rpc/impl/CarportServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/service/GoodsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/service/MotorDrivingTestService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/service/impl/BrandServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/service/impl/GoodsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/service/impl/MotorDrivingTestServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/service/impl/MotorWechatClueServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/vo/CompetitiveGoodsListVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/vo/DrivingTestVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/carport/vo/GoodListNewVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/nacos/NacosConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/shopinfo/controller/CarportShopController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/shopinfo/dao/MotorUserScoreShopDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/shopinfo/dao/impl/MotorUserScoreShopDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/shopinfo/service/CarportShopService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/shopinfo/service/impl/CarportShopServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/shopinfo/service/impl/LbsShopServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/platform/shopinfo/vo/LbsShopDetailVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/res/carport/ImallAuthENT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/res/carport/MotorDrivingTestEnterRecordENT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_carport/motor_carport_service/src/main/java/com/motor/res/carport/MotorShopDrivingSchool.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_admin/src/main/resources/appcontext/app-dubbo-coins.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_api/src/main/resources-profile/dev/properties/prop-common-config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_api/src/main/resources/appcontext/app-dubbo-coins.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_rpc/src/main/java/com/motor/coins/rpc/manager/CoinsAccountManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/dao/CoinsRecordDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/dao/entity/LCoinsRecord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/dao/impl/CoinsRecordDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/dto/SendEnergyDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/mga/controller/BendCoinsAccountController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/mga/dto/BendCoinsRecord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/model/SendEnergyVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/nacos/NacosConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/prize/service/impl/PrizeObtainServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/rpc/impl/CoinsAccountManagerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/service/CoinsAccountService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_coins/motor_coins_service/src/main/java/com/motor/coins/service/impl/CoinsAccountServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_data/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_data/motor_data_consumer/src/main/java/com/motor/data/consumer/canal/hoop/MotorHoopEssayConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_data/motor_data_consumer/src/main/java/com/motor/data/consumer/canal/shop/MotorImallShopInfoConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_data/motor_data_consumer/src/main/java/com/motor/data/dao/ShopRelationDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_data/motor_data_consumer/src/main/java/com/motor/data/jobstartlistener/ConsumeJobStartListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_data/motor_data_consumer/src/main/java/com/motor/data/util/ConsumerUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_data/motor_data_consumer/src/main/resources/mybatis/ShopRelationMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_device/motor_device_service/src/main/java/com/motor/device/controller/HandlerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_device/motor_device_service/src/main/java/com/motor/device/rpc/service/impl/RpcDeviceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_es_common/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_es_common/src/main/java/com/motor/common/es/EsManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_es_common/src/main/java/com/motor/common/es/entity/EsNestedAggRequestEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_es_common/src/main/java/com/motor/data/common/enums/TopicEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_es_common/src/main/java/com/motor/data/common/model/EsMotorShop.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_factory/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_factory/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_factory/motor_factory_rpc/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_factory/motor_factory_service/src/main/java/com/motor/factory/service/impl/AccountBrandServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_factory/motor_factory_service/src/main/java/com/motor/factory/service/impl/MotorGuestResourceGiftServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_forum/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_forum/motor_forum_service/src/main/java/com/motor/forum/controller/MotorBusinessEssayController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_forum/motor_forum_service/src/main/java/com/motor/forum/controller/PlatformEssayController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_forum/motor_forum_service/src/main/java/com/motor/forum/integration/MotorBusinessEssayManage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_admin/src/main/java/com/motor/invoice/controller/AdminMotorInvoiceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_api/src/main/java/com/motor/invoice/contoller/shopApp/MotorShopAppInvoiceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_api/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/java/com/motor/invoice/constant/ErrorCodeConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/java/com/motor/invoice/constant/RedisKeyConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/java/com/motor/invoice/dto/MotorInvoiceDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/java/com/motor/invoice/dto/SearchInvoiceDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/java/com/motor/invoice/enums/InvoiceOrderTypeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/java/com/motor/invoice/rpc/service/admin/impl/AdminMotorInvoiceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/java/com/motor/invoice/rpc/service/api/impl/MotorInvoiceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_invoice/motor_invoice_service/src/main/resources/application-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/config/WebMvcConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/web/contoller/MotorLiveController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/web/contoller/MotorLiveSpuController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/web/contoller/PulsarController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/web/contoller/TestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/web/contoller/app/MotorAppLiveController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/web/contoller/app/MotorAppLuckyBagController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/java/com/motor/live/web/contoller/app/MotorAppRoomController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_api/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.rpc.Filter">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_rpc/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_rpc/src/main/java/com/motor/live/rpc/service/MotorLiveRpcService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/config/NacosConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/constant/MqTopicConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/constant/RedisKeyDefine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/exception/GlobalExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/exception/LiveErrorCodes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/http/LiveHttpRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/manager/MallManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/manager/RedisManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/manager/UserManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/pulsar/PulsarManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/strategy/notify/AbstractLiveNotifyStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/strategy/notify/impl/LiveStopNotifyStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/strategy/notify/impl/LiveUserEnterRoomStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/strategy/notify/impl/PublishDoneNotifyStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/utils/ThreadUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/common/websocket/WebsocketServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/entity/LuckyBag.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/enums/CustomMessageEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/mapper/MotorLiveRecordMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/mapper/MotorLiveSpuMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/request/EditNoticeDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/request/LuckyBagDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/response/LiveInfoVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/response/LiveSpuVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/response/LiveStatisticsVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/response/LuckyBagVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/response/MallSelfGoodsListVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/response/RoomInfoVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/model/response/app/AppLuckyBagCurrentVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/rpc/impl/MotorLiveRpcServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/service/IMotorLiveRecordService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/service/IMotorLiveSpuService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/service/impl/LuckyBagServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/service/impl/MotorLiveRecordServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/service/impl/MotorLiveServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/service/impl/MotorLiveSpuServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/java/com/motor/live/service/impl/MotorRoomServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.rpc.Filter">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/resources/mapper/MotorLiveRecordMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_live/motor_live_service/src/main/resources/mapper/MotorLiveSpuMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_admin/src/main/java/com/motor/mall/controller/AdminSelfGoodsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_admin/src/main/java/com/motor/mall/controller/AdminSelfSeckillController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_api/src/main/java/com/motor/mall/controller/MallOrderController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_api/src/main/java/com/motor/mall/controller/MallSelfGoodsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_api/src/main/java/com/motor/mall/controller/MallSelfGoodsOrderController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_rpc/src/main/java/com/motor/mall/rpc/service/MallRpcService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/constant/MallMqConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/dao/MotorMallSelfGoodsDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/dao/MotorMallSelfGoodsSkuDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/dao/MotorMallSelfSeckillDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/dto/AdminSelfGoodsSpuUpdateDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/dto/MallSelfGoodsSearchDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/enums/ExceptionEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/pulsar/MallSelfGoodsPreSaleOverTimeConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/rpc/impl/MallRpcServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/service/impl/AdminSelfGoodsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/service/impl/AdminSelfRefundServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/service/impl/MallSelfGoodsOrderServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/service/impl/MallSelfGoodsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/service/manager/RpcUniteOrderServiceManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/vo/AdminSelfGoodsDetailVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/vo/AfterSaleOrderInfoListVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/java/com/motor/mall/vo/MallSelfGoodsListVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/resources/mapper/MotorMallSelfGoodsDao.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_mall/motor_mall_service/src/main/resources/mapper/MotorMallSelfGoodsSkuDao.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_api/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/consumer/MotorCustomerMessageConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/dao/CustomerDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/entity/CustomerDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/es/search/CrmCustomerSearchHelp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/manager/ShopServiceManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/service/admin/impl/CustomerServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/service/admin/impl/MotorCustomerShopCandidateServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/service/admin/impl/MotorCustomerTaskServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/service/admin/impl/MotorQueryPriceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/java/com/motor/scrm/vo/QueryCustomerVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/resources/application-dev.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_scrm/motor_scrm_service/src/main/resources/application-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_admin/src/main/java/com/motor/shop/controller/AdminBrandAgentRelController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_admin/src/main/java/com/motor/shop/controller/AdminMerchantInfoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_api/src/main/java/com/motor/shop/contoller/app/MotorGoldBalanceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_api/src/main/java/com/motor/shop/contoller/app/MotorShopAppWechatClueController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_api/src/main/java/com/motor/shop/contoller/merchant/MotorShopApplyV3Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_api/src/main/java/com/motor/shop/contoller/seo/MotorSeoShopQueryController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_api/src/main/java/com/motor/shop/contoller/seo/MotorShopSeoQueryController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_api/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_rpc/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_rpc/src/main/java/com/motor/common/exception/AbstractBaseException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_rpc/src/main/java/com/motor/shop/rpc/service/MotorShopRpcService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/common/es/search/SearchShopHelp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/config/NacosConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/constant/ErrorCodeConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/constant/ShopRedisKeys.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/constant/ShopTypeEum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/consumer/MotorFactoryActivityQueryPriceConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/consumer/MotorQueryPriceConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/dto/ShopApplyDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/dto/request/AddShopBrandAgentDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/dto/request/BrandAgentModifyDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/entity/MotorImallShopBusinessRel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/enums/BusinessTypeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/exception/DubboExceptionFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/exception/ShopErrorCodes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/mapper/MotorImallShopBrandRelMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/mapper/MotorImallShopInfoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/rpc/impl/MotorShopRpcServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/rpc/impl/ShopBizInfoRpcServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/IMotorBrandAgentRelService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/AdminShopServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/GoodsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorBalanceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorBrandAgentRelServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorImallShopBrandRelServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorImallShopBusinessRelServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorImallShopInfoAttrServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorQueryPriceRecordServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorQueryPriceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorShopApplyInfoServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorShopClueOrderServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorShopInfoServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorShopMemberLevelServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/service/impl/MotorShopQueryServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/vo/CarportShopVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/java/com/motor/shop/vo/merchant/ShopTagVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.rpc.Filter">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/resources/application-major.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/resources/mapper/MotorImallShopBrandRelMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/resources/mapper/MotorImallShopInfoAttrMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_shop/motor_shop_service/src/main/resources/mapper/MotorImallShopInfoMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_trade/motor_trade_service/src/main/java/com/motor/trade/handler/CouponRelationBuilderHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_trade/motor_trade_service/src/main/java/com/motor/trade/service/api/impl/MotorShopDirectTrainServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_trade/motor_trade_service/src/main/java/com/motor/trade/service/api/impl/MotorTradeCarFinalPriceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_transaction/motor_transaction_service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_transaction/motor_transaction_service/src/main/java/com/motor/transaction/constant/TransactionConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_transaction/motor_transaction_service/src/main/java/com/motor/transaction/jms/TransactionRefundApplyQueueConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_transaction/motor_transaction_service/src/main/java/com/motor/transaction/service/impl/MotorSecondHandCarOrderServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_transaction/motor_transaction_service/src/main/java/com/motor/transaction/service/impl/MotorSecondHandCarServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user/motor_user_api/src/main/resources/mybatis/DAppMessageMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user/motor_user_service/src/main/java/com/jdd/motor/user/service/impl/MessageServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user/motor_user_service/src/main/java/com/jdd/motor/user/service/impl/MotorSecurityGuardServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user_center/motor_user_center_api/src/main/java/com/motor/user/center/controller/LoginController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user_center/motor_user_center_api/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user_center/motor_user_center_service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user_center/motor_user_center_service/src/main/java/com/motor/user/center/service/impl/AccountServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../motor_user_center/motor_user_center_service/src/main/java/com/motor/user/center/utils/RedisKeyDefine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/api/garage.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/api/login.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/components/Dialog/AliImageDialog.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/store/modules/user.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/utils/configData/config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/utils/request.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/views/garage/dealerManagement/components/driving-test.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss/src/views/garage/dealerManagement/distributorDetails/index.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/api/live-managemant.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/main.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/permission.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/router/index.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/utils/auth.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/utils/request.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/utils/webSocket.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/views/home/index.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/views/live-management/live-control.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../oss_moto_live/src/views/login/index.vue">
           <value>
             <set />
           </value>
