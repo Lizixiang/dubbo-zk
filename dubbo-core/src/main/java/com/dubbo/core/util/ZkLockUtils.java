@@ -14,6 +14,17 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * zookeeper和redis作为分布式锁的区别：
+ *  1.底层存储的数据结构：
+ *  redis可以使用string、hash、set、zset、list，并且运行在内存中，所以redis在性能方面优于zookeeper；
+ *  zookeeper类似于windows的文件系统，是一个树状的目录结构，创建的是一个临时节点；
+ *  2.锁是否有过期时间：
+ *  zookeeper不存在过期时间，客户端和zookeeper建立连接后维护一个session，定时发送心跳，如果客户端没有应答，直接删除znode；
+ *  redis需要设置过期时间，并且存在死锁，过期时间超时等问题；
+ *  3.锁竞争时的策略：
+ *  zookeeper：如果竞争中没有拿到锁，此时创建一个watcher，并使当前线程进入等待状态，直到锁被释放，调用notifyAll继续循环获取锁；
+ *  redis：如果竞争中没有拿到锁，在超时时间之前循环拿锁，直到超时或者拿到锁；
+ *
  * @author lizixiang
  * @since 2021/3/5
  */

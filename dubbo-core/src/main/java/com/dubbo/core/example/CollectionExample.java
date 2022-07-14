@@ -1,11 +1,11 @@
 package com.dubbo.core.example;
 
 import com.alibaba.fastjson.JSON;
-import com.dubbo.core.example.vo.GoodRankListVO;
 import com.google.common.collect.Lists;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.swing.*;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -26,22 +26,60 @@ public class CollectionExample {
         }).collect(Collectors.toList());
         System.out.println(collect);
 
-        GoodRankListVO vo1 = new GoodRankListVO(3, 1.1, 3);
-        GoodRankListVO vo2 = new GoodRankListVO(2, 1.1, 3);
-        List<GoodRankListVO> list = new ArrayList<>();
-        list.add(vo1);
-        list.add(vo2);
-        List<GoodRankListVO> collect1 = list.stream().sorted((b1, b2) -> {
-            if (b1.getGrade() > b2.getGrade()) {
-                return -1;
-            } else if (b1.getGrade() < b2.getGrade()) {
-                return 1;
-            } else {
-                return b2.getGradeCount() - b1.getGradeCount();
-            }
-        }).collect(Collectors.toList());
-        System.out.println(JSON.toJSONString(collect1));
+        Hashtable<String, String> hashtable = new Hashtable<>();
+        hashtable.put("1", "1");
+        hashtable.contains("1");
 
+        HashMap<String, String> map = new HashMap<>();
+        map.containsValue("1");
+
+        long l2 = System.currentTimeMillis();
+        LinkedList<String> linkedList = new LinkedList<>();
+        for (int i = 0; i <2000; i++) {
+            linkedList.add(i+"");
+        }
+        long l3 = System.currentTimeMillis();
+        System.out.println(l3 - l2);
+
+        long l = System.currentTimeMillis();
+        ArrayList<String> list = new ArrayList<>();
+        for (int i = 0; i <2000; i++) {
+            list.add(i+"");
+        }
+        long l1 = System.currentTimeMillis();
+        System.out.println(l1 - l);
+
+        Vector<String> vector = new Vector<>();
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        vector.add("1");
+        System.out.println(vector.capacity());
+
+        ArrayList<String> list3 = new ArrayList<>();
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        list3.add("1");
+        System.out.println(list3);
+
+        HashSet<String> hashSet = new HashSet<>();
+        hashSet.add("1");
+        hashSet.contains("1");
     }
 
 }
