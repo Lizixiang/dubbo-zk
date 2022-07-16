@@ -41,13 +41,13 @@ public class JedisClusterFactory implements FactoryBean<JedisCluster>, Initializ
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        Set<HostAndPort> hostAndPorts = new HashSet<>();
-        String[] n1 = this.nodes.split(",");
-        for (String node : n1) {
-            String[] split = node.split(":");
-            hostAndPorts.add(new HostAndPort(split[0], Integer.parseInt(split[1])));
-        }
-        jedisCluster = new JedisCluster(hostAndPorts, this.connectionTimeout, this.soTimeout, this.maxRedirections, new GenericObjectPoolConfig<>());
+//        Set<HostAndPort> hostAndPorts = new HashSet<>();
+//        String[] n1 = this.nodes.split(",");
+//        for (String node : n1) {
+//            String[] split = node.split(":");
+//            hostAndPorts.add(new HostAndPort(split[0], Integer.parseInt(split[1])));
+//        }
+//        jedisCluster = new JedisCluster(hostAndPorts, this.connectionTimeout, this.soTimeout, this.maxRedirections, new GenericObjectPoolConfig<>());
     }
 
     public JedisCluster getJedisCluster() {

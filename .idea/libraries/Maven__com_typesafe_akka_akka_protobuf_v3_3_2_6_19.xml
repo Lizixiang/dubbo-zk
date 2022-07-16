@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.typesafe.akka:akka-protobuf-v3_3:2.6.19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../tool/maven repository/com/typesafe/akka/akka-protobuf-v3_3/2.6.19/akka-protobuf-v3_3-2.6.19.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../tool/maven repository/com/typesafe/akka/akka-protobuf-v3_3/2.6.19/akka-protobuf-v3_3-2.6.19-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../tool/maven repository/com/typesafe/akka/akka-protobuf-v3_3/2.6.19/akka-protobuf-v3_3-2.6.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

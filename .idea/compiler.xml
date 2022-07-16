@@ -20,7 +20,7 @@
       <module name="dubbo-gateway" target="1.5" />
       <module name="dubbo-user" target="1.5" />
       <module name="user-admin" target="1.5" />
-      <module name="user-api" target="1.5" />
+      <module name="user-api" target="1.8" />
       <module name="user-rpc" target="1.6" />
       <module name="user-service" target="1.6" />
     </bytecodeTargetLevel>
