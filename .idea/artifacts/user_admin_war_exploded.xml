@@ -138,6 +138,8 @@
           <element id="library" level="project" name="Maven: com.typesafe:ssl-config-core_2.13:0.4.3" />
           <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.13:1.1.2" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.8.0" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.7" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-websocket:2.4.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.3.4" />
           <element id="library" level="project" name="Maven: org.springframework:spring-websocket:5.3.4" />
