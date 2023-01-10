@@ -43,7 +43,7 @@ public class DistributedLockAspect {
 
     {
         SCHEDULER.scheduleAtFixedRate(() -> {
-            logger.info("开始扫描任务队列:{}", QUEUE);
+//            logger.info("开始扫描任务队列:{}", QUEUE);
             QUEUE.parallelStream().forEach(e -> {
                 if (ObjectUtils.isEmpty(e)) {
                     return;
