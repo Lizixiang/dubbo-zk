@@ -22,4 +22,15 @@ public class TestController {
         System.out.println(message);
     }
 
+    @Autowired
+    private HandlerChainManager handlerChainManager;
+
+    @PostMapping("/test2")
+    public Result test2() {
+        BaseHandlerDto1 baseHandlerDto1 = new BaseHandlerDto1();
+        baseHandlerDto1.setClassNames(Lists.newArrayList("senstiveHandler", "signHandler"));
+        Result o = handlerChainManager.executeHandle(baseHandlerDto1);
+        return o;
+    }
+
 }
