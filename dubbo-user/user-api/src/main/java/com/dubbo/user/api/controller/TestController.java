@@ -1,6 +1,12 @@
 package com.dubbo.user.api.controller;
 
+import com.dubbo.core.exception.Result;
+import com.dubbo.core.liability.HandlerChainManager;
+import com.dubbo.user.dto.request.BaseHandlerDto1;
+import com.google.common.collect.Lists;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
