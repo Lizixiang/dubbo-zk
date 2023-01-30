@@ -1,4 +1,4 @@
-package com.dubbo.core.liability.enums;
+package com.dubbo.core.design.liability.enums;
 
 /**
  * <pre>

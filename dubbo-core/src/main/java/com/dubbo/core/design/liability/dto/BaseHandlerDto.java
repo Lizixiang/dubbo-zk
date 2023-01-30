@@ -1,4 +1,4 @@
-package com.dubbo.core.liability.dto;
+package com.dubbo.core.design.liability.dto;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package com.dubbo.core.liability.impl;
+package com.dubbo.core.design.liability.impl;
 
 import com.dubbo.core.exception.Result;
-import com.dubbo.core.liability.AbstractHandler;
-import com.dubbo.core.liability.dto.BaseHandlerDto;
+import com.dubbo.core.design.liability.AbstractHandler;
+import com.dubbo.core.design.liability.dto.BaseHandlerDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

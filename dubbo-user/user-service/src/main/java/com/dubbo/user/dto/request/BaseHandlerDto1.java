@@ -1,6 +1,6 @@
 package com.dubbo.user.dto.request;
 
-import com.dubbo.core.liability.dto.BaseHandlerDto;
+import com.dubbo.core.design.liability.dto.BaseHandlerDto;
 
 /**
  * <pre>

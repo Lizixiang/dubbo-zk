@@ -1,10 +1,13 @@
 package com.dubbo.user.api.controller;
 
+import com.dubbo.config.listener.Event1;
 import com.dubbo.core.exception.Result;
-import com.dubbo.core.liability.HandlerChainManager;
+import com.dubbo.core.design.liability.HandlerChainManager;
 import com.dubbo.user.dto.request.BaseHandlerDto1;
 import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +24,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/test")
-public class TestController {
+public class TestController implements ApplicationEventPublisherAware {
+
+    private ApplicationEventPublisher publisher;
 
     @GetMapping("/test1")
     public void test1(String message) {
@@ -39,4 +44,14 @@ public class TestController {
         return o;
     }
 
+    @GetMapping("/test3")
+    public Result test3() {
+        this.publisher.publishEvent(new Event1(this));
+        return Result.SUCCESS();
+    }
+
+    @Override
+    public void setApplicationEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
+        this.publisher = applicationEventPublisher;
+    }
 }

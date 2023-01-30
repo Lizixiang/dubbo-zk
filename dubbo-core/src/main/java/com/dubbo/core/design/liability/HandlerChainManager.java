@@ -1,6 +1,6 @@
-package com.dubbo.core.liability;
+package com.dubbo.core.design.liability;
 
-import com.dubbo.core.liability.dto.BaseHandlerDto;
+import com.dubbo.core.design.liability.dto.BaseHandlerDto;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 

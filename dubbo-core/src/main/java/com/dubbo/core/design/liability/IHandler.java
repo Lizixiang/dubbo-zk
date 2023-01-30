@@ -1,4 +1,4 @@
-package com.dubbo.core.liability;
+package com.dubbo.core.design.liability;
 
 /**
  * <pre>
