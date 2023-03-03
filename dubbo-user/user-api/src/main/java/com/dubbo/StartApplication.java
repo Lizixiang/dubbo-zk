@@ -13,7 +13,7 @@ import java.util.Locale;
 public class StartApplication {
 
     public static void main(String[] args) {
-        Locale.setDefault(new Locale("zh", "cn"));
+//        Locale.setDefault(new Locale("zh", "cn"));
         SpringApplication.run(StartApplication.class, args);
     }
 
