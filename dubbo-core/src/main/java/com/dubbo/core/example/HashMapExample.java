@@ -1,9 +1,11 @@
 package com.dubbo.core.example;
 
+import com.google.common.collect.Lists;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
@@ -41,6 +43,14 @@ public class HashMapExample {
         synchronized ("1") {
 
         }
+
+
+        Map<Integer, List<Integer>> map1 = new HashMap<>();
+        // 返回value值
+        map1.computeIfAbsent(1, key -> Lists.newArrayList()).add(1);
+        map1.computeIfAbsent(1, key -> Lists.newArrayList()).add(2);
+        map1.computeIfAbsent(1, key -> Lists.newArrayList()).add(1);
+
     }
 
 }
