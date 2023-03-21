@@ -8,10 +8,22 @@ public class ServiceException extends RuntimeException {
 
     private Object errorCode;
     private String message;
+    private Object[] args;
+
+    public ServiceException(ResultCode errorCode, Object... args) {
+        this.errorCode = errorCode;
+        this.args = args;
+    }
 
     public ServiceException(String message, ResultCode errorCode) {
         this.errorCode = errorCode;
         this.message = message;
+    }
+
+    public ServiceException(ResultCode errorCode, String message, Object... args) {
+        this.errorCode = errorCode;
+        this.message = message;
+        this.args = args;
     }
 
     public ResultCode getErrorCode() {
@@ -25,5 +37,9 @@ public class ServiceException extends RuntimeException {
     @Override
     public String getMessage() {
         return message;
+    }
+
+    public Object[] getArgs() {
+        return args;
     }
 }

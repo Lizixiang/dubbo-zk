@@ -1,5 +1,8 @@
 package com.dubbo.core.exception;
 
+import com.dubbo.core.util.MessageUtils;
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * @author lizixiang
  * @since 2021/6/4
@@ -42,10 +45,22 @@ public class Result {
         return result;
     }
 
-    public static Result ERROR(ResultCode errorCode) {
+    public static Result ERROR(ResultCode e) {
         Result result = new Result();
-        result.setCode(errorCode.getCode());
-        result.setMessage(errorCode.getMessage());
+        result.setCode(e.getCode());
+        result.setMessage(MessageUtils.getMessage(e));
+        result.setSuccess(false);
+        return result;
+    }
+
+    public static Result ERROR(ServiceException e) {
+        Result result = new Result();
+        result.setCode(e.getErrorCode().getCode());
+        if (StringUtils.isNotBlank(e.getMessage())) {
+            result.setMessage(String.format(e.getMessage(), e.getArgs()));
+        } else {
+            result.setMessage(MessageUtils.getMessage(e.getErrorCode(), e.getArgs()));
+        }
         result.setSuccess(false);
         return result;
     }

@@ -27,8 +27,8 @@ public class CommonExceptionHandler {
         if (logger.isDebugEnabled()) {
             logger.error("queryString[{}] parameter[{}] error : {}", request.getQueryString(), request.getParameterMap(), ExceptionUtils.getStackTrace(e));
         }
-        if (e instanceof ResultCode) {
-            return Result.ERROR(e.getErrorCode());
+        if (e.getErrorCode() instanceof ResultCode) {
+            return Result.ERROR(e);
         } else {
             return Result.ERROR(e.getMessage());
         }
