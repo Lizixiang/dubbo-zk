@@ -22,5 +22,5 @@
 - [x] 研究责任链模式在spring中的应用以及造第一个轮子
 - [ ] 研究观察者模式在spring中的应用以及造第一个轮子
 - [ ] 研究dubbo spi机制以及造第一个轮子
-- [ ] 研究spring国际化并写第一个demo
+- [x] 研究spring国际化并写第一个demo
 - [ ] 研究guava的理论基础并实践应用场景、了解caffine的技术特点和简单demo
