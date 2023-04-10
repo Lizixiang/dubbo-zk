@@ -24,6 +24,8 @@ public class StartApplication {
     public MessageSource messageSource() {
         ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
         messageSource.setBasename("classpath:ApplicationResources");
+        // 每10s刷新一次内存从properties中重新读取
+        messageSource.setCacheSeconds(10);
         messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }
