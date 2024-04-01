@@ -4,7 +4,7 @@ import com.dubbo.core.exception.Result;
 import com.dubbo.core.exception.ServiceException;
 import com.dubbo.user.dto.request.TestDto;
 import com.dubbo.user.exception.UserErrorCode;
-import com.dubbo.user.rpc.UserService;
+import com.dubbo.user.rpc.UserRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,11 +20,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestZkController {
 
     @Autowired
-    private UserService userService;
+    private UserRpcService userRpcService;
 
     @GetMapping("/test1")
     public void test1() {
-        userService.getUser(1);
+        userRpcService.getUser(1);
     }
 
     @GetMapping("/validated")

@@ -2,14 +2,22 @@ package com.dubbo.user.rpc.service.impl;
 
 import com.dubbo.core.annotation.DistributedLock;
 import com.dubbo.core.exception.ServiceException;
+import com.dubbo.user.entity.SysUser;
 import com.dubbo.user.exception.UserErrorCode;
-import com.dubbo.user.rpc.UserService;
+import com.dubbo.user.mapper.UserMapper;
+import com.dubbo.user.rpc.UserRpcService;
 import org.apache.dubbo.config.annotation.DubboService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
 
 @Component
 @DubboService
-public class UserServiceImpl implements UserService {
+public class UserRpcServiceImpl implements UserRpcService {
+
+    @Autowired
+    private UserMapper userMapper;
 
     @DistributedLock(key = "/com/lzx/%s", lockField = "#uid")
     @Override

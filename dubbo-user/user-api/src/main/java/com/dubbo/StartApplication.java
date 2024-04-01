@@ -1,5 +1,7 @@
 package com.dubbo;
 
+import org.apache.ibatis.logging.LogFactory;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.MessageSource;
@@ -13,21 +15,23 @@ import java.util.Locale;
  * @since 2021/2/7
  */
 @SpringBootApplication
+@MapperScan("com.dubbo.user.mapper")
 public class StartApplication {
 
     public static void main(String[] args) {
 //        Locale.setDefault(new Locale("zh", "cn"));
+        LogFactory.useLog4J2Logging();
         SpringApplication.run(StartApplication.class, args);
     }
 
-    @Bean(name = "messageSource")
-    public MessageSource messageSource() {
-        ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-        messageSource.setBasename("classpath:ApplicationResources");
-        // 每10s刷新一次内存从properties中重新读取
-        messageSource.setCacheSeconds(10);
-        messageSource.setDefaultEncoding("UTF-8");
-        return messageSource;
-    }
+//    @Bean(name = "messageSource")
+//    public MessageSource messageSource() {
+//        ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
+//        messageSource.setBasename("classpath:ApplicationResources");
+//        // 每10s刷新一次内存从properties中重新读取
+//        messageSource.setCacheSeconds(10);
+//        messageSource.setDefaultEncoding("UTF-8");
+//        return messageSource;
+//    }
 
 }
