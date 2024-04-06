@@ -66,7 +66,7 @@ public class TokenBucketStrategy extends AbstractFlowControlStrategy{
                 script.append("\n end");
                 script.append("\n return map");
                 String fields = redisUtils.eval(script.toString(),  1, TOKEN_BUCKETS).toString();
-                logger.info("current token buckets:{}", fields);
+//                logger.info("current token buckets:{}", fields);
             }
         }, 10, 1, TimeUnit.SECONDS);
     }
@@ -88,7 +88,7 @@ public class TokenBucketStrategy extends AbstractFlowControlStrategy{
         script.append("\n return 0");
         script.append("\n end");
         long r = (long) redisUtils.eval(script.toString(), 2, new String[]{TOKEN_BUCKETS, (dto.getKey() + "-" + dto.getMax() + "-" + dto.getFlowRate() + "-{wl}")});
-        logger.info("current token buckets count:{}", r);
+//        logger.info("current token buckets count:{}", r);
         if (r == -1L) {
             logger.warn("资源："+ dto.getKey() +"，调用超过"+ dto.getMax() +"次，触发限流");
             throw new ServiceException("资源："+ dto.getKey() +"，调用超过"+ dto.getMax() +"次，触发限流", ErrorCode.FLOW_CONTROL);

@@ -4,6 +4,7 @@ import org.apache.ibatis.logging.LogFactory;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
@@ -14,6 +15,7 @@ import java.util.Locale;
  * @author lizixiang
  * @since 2021/2/7
  */
+@EnableCaching
 @SpringBootApplication
 @MapperScan("com.dubbo.user.mapper")
 public class StartApplication {

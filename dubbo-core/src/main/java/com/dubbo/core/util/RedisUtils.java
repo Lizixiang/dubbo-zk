@@ -16,9 +16,35 @@ public class RedisUtils {
     @Autowired
     private JedisClusterFactory jedis;
 
+    public long expire(String key, long seconds) {
+        return jedis.expire(key, seconds);
+    }
+
+    public long expire(byte[] key, long seconds) {
+        return jedis.expire(key, seconds);
+    }
+
     public String set(String key, String value) {
         String r = jedis.set(key, value);
         return r;
+    }
+
+    public String set(byte[] key, byte[] value) {
+        String r = jedis.set(key, value);
+        return r;
+    }
+
+    public String get(String key) {
+        String r = jedis.get(key);
+        return r;
+    }
+
+    public byte[] get(byte[] key) {
+        return jedis.get(key);
+    }
+
+    public long del(String key) {
+        return jedis.del(key);
     }
 
     public Object eval(String script) {

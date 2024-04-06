@@ -1,8 +1,9 @@
 # dubbo-zk
+
 基于dubbo+zk脚手架
 
-
 # unfinished issues
+
 - [x] zookeeper保证分布式事务的最终一致性
 - [x] zookeeper分布式锁
 - [x] zookeeper config配置中心：动态配置数据(缺点：1.zk没有自带的web 2.只能借助原生api实现 3.需要实现watcher和publisher)
@@ -26,3 +27,6 @@
 - [ ] 研究guava的理论基础并实践应用场景、了解caffine的技术特点和简单demo
 - [ ] 研究抽奖算法的几种实现方式、使用场景、时间复杂度、测试报告
 - [x] 通过注解的形式实现数据权限控制
+- [x] 在spring cache框架基础上自定义Caffeine+redis的缓存管理器来实现二级缓存，并解决实际生产会出现的问题
+- [ ] 利用Caffeine+redis自定义缓存存取策略，并跟基于spring cache的方式比较他们的优缺点
+- [ ] 使用redis的发布订阅来实现二级缓存，在分布式情况下如何通知其他节点来保证数据一致性

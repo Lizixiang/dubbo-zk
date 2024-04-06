@@ -41,13 +41,13 @@ public class JedisClusterFactory implements FactoryBean<JedisCluster>, Initializ
 
     @Override
     public void afterPropertiesSet() throws Exception {
-//        Set<HostAndPort> hostAndPorts = new HashSet<>();
-//        String[] n1 = this.nodes.split(",");
-//        for (String node : n1) {
-//            String[] split = node.split(":");
-//            hostAndPorts.add(new HostAndPort(split[0], Integer.parseInt(split[1])));
-//        }
-//        jedisCluster = new JedisCluster(hostAndPorts, this.connectionTimeout, this.soTimeout, this.maxRedirections, new GenericObjectPoolConfig<>());
+        Set<HostAndPort> hostAndPorts = new HashSet<>();
+        String[] n1 = this.nodes.split(",");
+        for (String node : n1) {
+            String[] split = node.split(":");
+            hostAndPorts.add(new HostAndPort(split[0], Integer.parseInt(split[1])));
+        }
+        jedisCluster = new JedisCluster(hostAndPorts, this.connectionTimeout, this.soTimeout, this.maxRedirections, new GenericObjectPoolConfig<>());
     }
 
     public JedisCluster getJedisCluster() {
@@ -82,9 +82,35 @@ public class JedisClusterFactory implements FactoryBean<JedisCluster>, Initializ
         this.maxRedirections = maxRedirections;
     }
 
+    public long expire(String key, long seconds) {
+        return jedisCluster.expire(key, seconds);
+    }
+
+    public long expire(byte[] key, long seconds) {
+        return jedisCluster.expire(key, seconds);
+    }
+
     public String set(String key, String value) {
         String r = jedisCluster.set(key, value);
         return r;
+    }
+
+    public String set(byte[] key, byte[] value) {
+        String r = jedisCluster.set(key, value);
+        return r;
+    }
+
+    public String get(String key) {
+        String r = jedisCluster.get(key);
+        return r;
+    }
+
+    public byte[] get(byte[] key) {
+        return jedisCluster.get(key);
+    }
+
+    public long del(String key) {
+        return jedisCluster.del(key);
     }
 
     public Object eval(String script) {
