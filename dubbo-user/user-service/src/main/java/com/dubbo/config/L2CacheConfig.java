@@ -3,6 +3,7 @@ package com.dubbo.config;
 import com.dubbo.core.cache.CaffeinePropsHolder;
 import com.dubbo.user.enums.CacheManagerEnum;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
  * @author lizixiang
  * @date 2024-04-05 15:58:03
  */
+@EnableCaching(order = 999)
 @Component
 public class L2CacheConfig implements InitializingBean {
 

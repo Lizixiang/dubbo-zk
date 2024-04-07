@@ -15,7 +15,6 @@ import java.util.Locale;
  * @author lizixiang
  * @since 2021/2/7
  */
-@EnableCaching
 @SpringBootApplication
 @MapperScan("com.dubbo.user.mapper")
 public class StartApplication {

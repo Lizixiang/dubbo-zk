@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -38,12 +39,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @CacheEvict(cacheNames = "user", key = "T(com.dubbo.user.enums.CacheEnum).USER.getFormattedKey(#userId)", cacheManager = "l2CacheManager")
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public SysUser updateNameById(Integer userId, String name) {
         SysUser sysUser = userMapper.selectById(userId);
         if (sysUser != null) {
             sysUser.setName(name);
             userMapper.updateById(sysUser);
+//            int i = 1 / 0;
         }
         return sysUser;
     }

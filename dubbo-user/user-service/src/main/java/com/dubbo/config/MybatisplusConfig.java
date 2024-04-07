@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * FileName: MybatisplusConfig
  * Description: mybatis-plus配置
  */
-@EnableTransactionManagement
+@EnableTransactionManagement(order = 998)
 @Configuration
 public class MybatisplusConfig {
 
