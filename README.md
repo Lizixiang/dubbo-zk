@@ -14,7 +14,7 @@
 - [ ] canal+kafka监控mysql binlog日志实现数据同步
 - [ ] 引入普罗米修斯监控，并配合Grafana做前端展示
 - [ ] 引入apache dubbo动态配置中心（zk、apollo、nacos可选）
-- [ ] 引入雪花算法snowFlake
+- [x] 引入雪花算法snowFlake
 - [x] 引入zk分布式锁注解(zk不支持延迟超时时间，注解支持spel表达式)
 - [x] 加入全局异常
 - [x] 限流算法demo：滑动窗口、漏桶算法、令牌桶算法
