@@ -4,7 +4,8 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSON;
 import com.dubbo.core.util.ZkLockUtils;
 import com.dubbo.gateway.config.GateWayZkConfig;
-import com.dubbo.user.rpc.UserService;
+import com.dubbo.user.rpc.UserRpcService;
+import org.apache.dubbo.config.annotation.DubboReference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -32,8 +32,8 @@ public class TestController {
 
     private static Random r = new Random();
 
-    @Reference
-    private UserService userService;
+    @DubboReference(cache = "lru")
+    private UserRpcService userService;
     @Autowired
     private GateWayZkConfig gateWayZkConfig;
 

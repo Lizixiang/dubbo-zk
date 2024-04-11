@@ -32,7 +32,7 @@ public class ZkLockUtils {
 
     private static Logger logger = LoggerFactory.getLogger(ZkLockUtils.class);
 
-    private static String zkAddress = "172.20.1.112:2181";
+    private static String zkAddress = "127.0.0.1:2181";
 
     public static CuratorFramework client;
 
