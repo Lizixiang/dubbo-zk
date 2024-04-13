@@ -58,7 +58,7 @@ public class MybatisPlusInterceptor implements Interceptor {
         // 获取原始sql
         BoundSql boundSql = ((MappedStatement) args[0]).getBoundSql(args[1]);
         String originSql = boundSql.getSql();
-        logger.info("originSql:{}", originSql);
+//        logger.info("originSql:{}", originSql);
         // 通过StatemenHandler间接获取MappedStatement
         MappedStatement mappedStatement = (MappedStatement) args[0];
         // 获取请求类和请求方法
@@ -98,7 +98,7 @@ public class MybatisPlusInterceptor implements Interceptor {
                     plainSelect.setWhere(whereExpression);
                 }
                 resetSql2Invocation(invocation, plainSelect.toString());
-                logger.info("sql:{}", plainSelect.toString());
+//                logger.info("sql:{}", plainSelect.toString());
             }
         }
         return invocation.proceed();

@@ -2,7 +2,7 @@ spring:
   shardingsphere:
     props:
       sql:
-        show: true
+        show: false
     datasource:
       names: dubbozk
       dubbozk:
@@ -47,3 +47,8 @@ spring:
 #                type: SNOWFLAKE
 #                # 对id列采用 sharding-jdbc的全局id生成策略
 #                column: id
+
+
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

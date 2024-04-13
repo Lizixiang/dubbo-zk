@@ -30,4 +30,5 @@
 - [x] 在spring cache框架基础上自定义Caffeine+redis的缓存管理器来实现二级缓存，并解决实际生产会出现的问题
 - [ ] 利用Caffeine+redis自定义缓存存取策略，并跟基于spring cache的方式比较他们的优缺点
 - [ ] 使用redis的发布订阅来实现二级缓存，在分布式情况下如何通知其他节点来保证数据一致性
-- [ ] 引入sharding-jdbc实现分库分表
+- [x] 引入sharding-jdbc实现分库分表
+- [x] 如何将1000W条数据从excel导入到数据库中？

@@ -21,7 +21,8 @@ public class StartApplication {
 
     public static void main(String[] args) {
 //        Locale.setDefault(new Locale("zh", "cn"));
-        LogFactory.useLog4J2Logging();
+//        LogFactory.useLog4J2Logging();
+        LogFactory.useSlf4jLogging();
         SpringApplication.run(StartApplication.class, args);
     }
 
