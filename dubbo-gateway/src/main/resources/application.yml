@@ -1,0 +1,54 @@
+spring:
+  shardingsphere:
+    props:
+      sql:
+        show: false
+    datasource:
+      names: dubbozk
+      dubbozk:
+        type: com.zaxxer.hikari.HikariDataSource
+        jdbc-url: jdbc:mysql://localhost:3306/dubbo_zk?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=PRC&useSSL=false&allowPublicKeyRetrieval=true
+        driverClassName: com.mysql.cj.jdbc.Driver
+        username: root
+        password: jrDiFi136t)1
+        # 数据源其他配置
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: SELECT 1 FROM DUAL
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+        #filters: stat,wall,log4j
+        maxPoolPreparedStatementPerConnectionSize: 20
+        useGlobalDataSourceStat: true
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    sharding:
+      # 表策略配置
+      tables:
+        t_user:
+          # 分表节点 可以理解为分表后的那些表 比如 t_user_1 ,t_user_2 ,t_user_3
+          actualDataNodes: dubbozk.t_user_$->{1..3}
+          tableStrategy:
+            inline:
+              # 根据哪列分表
+              shardingColumn: age
+              # 分表算法 例如：age为奇数 -> t_user_2； age为偶数 -> t_user_1
+              algorithmExpression: t_user_$->{age % 2 + 1}
+              # 分表算法 例如：age为3 -> t_user_3
+              #              algorithmExpression: t_user_$->{age}
+              # 分表后，sharding-jdbc的全局id生成策略
+#              keyGenerator:
+#                type: SNOWFLAKE
+#                # 对id列采用 sharding-jdbc的全局id生成策略
+#                column: id
+
+
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

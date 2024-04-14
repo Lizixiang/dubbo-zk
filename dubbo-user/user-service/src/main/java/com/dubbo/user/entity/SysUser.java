@@ -1,6 +1,8 @@
 package com.dubbo.user.entity;
 
-public class SysUser {
+import java.io.Serializable;
+
+public class SysUser implements Serializable {
     private Long id;
     private String name;
     private Integer age;

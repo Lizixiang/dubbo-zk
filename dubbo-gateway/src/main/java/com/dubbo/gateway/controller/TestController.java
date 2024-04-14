@@ -2,10 +2,15 @@ package com.dubbo.gateway.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSON;
+import com.dubbo.core.exception.Result;
 import com.dubbo.core.util.ZkLockUtils;
 import com.dubbo.gateway.config.GateWayZkConfig;
 import com.dubbo.user.rpc.UserRpcService;
 import org.apache.dubbo.config.annotation.DubboReference;
+import org.apache.dubbo.config.annotation.Method;
+import org.apache.dubbo.rpc.cluster.support.FailfastCluster;
+import org.apache.dubbo.rpc.cluster.support.FailoverCluster;
+import org.apache.dubbo.rpc.cluster.support.FailsafeCluster;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +37,11 @@ public class TestController {
 
     private static Random r = new Random();
 
-    @DubboReference(cache = "lru")
+    @DubboReference(methods = {
+            @Method(name = "getUser", cache = "lru"),
+            @Method(name = "dubboRpc", cache = "lru"),
+            @Method(name = "queryAll", cache = "lru")
+    }, cluster = FailsafeCluster.NAME)
     private UserRpcService userService;
     @Autowired
     private GateWayZkConfig gateWayZkConfig;
@@ -70,6 +79,12 @@ public class TestController {
     @GetMapping("zkConfig")
     public String zkConfig() {
         return gateWayZkConfig.getSex();
+    }
+
+    @GetMapping("queryAll")
+    public Result queryAll() {
+        List all = userService.queryAll();
+        return Result.SUCCESS(all);
     }
 
 }

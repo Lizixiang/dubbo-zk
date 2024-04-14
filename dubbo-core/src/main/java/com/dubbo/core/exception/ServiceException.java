@@ -27,7 +27,7 @@ public class ServiceException extends RuntimeException {
     }
 
     public ResultCode getErrorCode() {
-        return (ResultCode) errorCode;
+        return errorCode instanceof ResultCode ? (ResultCode) errorCode : ErrorCode.SYSTEM_ERROR;
     }
 
     public void setErrorCode(ErrorCode errorCode) {
